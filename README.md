@@ -1,4 +1,4 @@
-# VUE AUDIO SPECCH TO TEXT
+# VUE AUDIO SPEECH TO TEXT
 
 A simple Component for speech to text.
 
