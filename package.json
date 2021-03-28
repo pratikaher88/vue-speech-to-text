@@ -38,5 +38,22 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "A simple Audio recorder and player to record audio content.",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratikaher88/vue-speech-to-text.git"
+  },
+  "keywords": [
+    "Vue",
+    "Speech to Text",
+    "Javascript"
+  ],
+  "author": "Pratik Aher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pratikaher88/vue-speech-to-text/issues"
+  },
+  "homepage": "https://github.com/pratikaher88/vue-speech-to-text#readme"
 }
