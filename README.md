@@ -1,4 +1,4 @@
-# VUE AUDIO RECORDER AND PLAYBACK
+# VUE AUDIO SPECCH TO TEXT
 
 A simple Component for speech to text.
 
