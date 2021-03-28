@@ -1,6 +1,6 @@
 # VUE AUDIO RECORDER AND PLAYBACK
 
-A simple Audio recorder and player to record audio content.
+A simple Component for speech to text.
 
 ![](https://raw.githubusercontent.com/pratikaher88/vue-speech-to-text/master/Screenshot.png)
 
