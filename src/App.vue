@@ -1,18 +1,33 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <textarea rows="4" cols="100" v-model="feedbackTextArea"/>
+    <Speech2Text @speechend="speechEnd" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Speech2Text from './components/STT.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Speech2Text
+  },
+  data() {
+    return {
+      feedbackTextArea: '',
+    }
+  },
+  methods: {
+    speechEnd({text}) {
+
+      if (text) {
+        this.feedbackTextArea += text + '. '
+      }
+
+    }
   }
+
 }
 </script>
 
